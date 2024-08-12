@@ -35,7 +35,7 @@ const Header = () => {
     return (
         <header className='w-full h-14 flex justify-between px-4 md:px-10 items-center bg-transparent relative z-[30]'>
             <div className="">
-                <a href="#" className='font-bold text-lg lg:text-2xl'>The Coding Jurney</a>
+                <a href="#" className='font-bold text-lg lg:text-2xl'>Let's Code</a>
             </div>
             <nav className={`absolute top-14 ${isNavOpen ? 'right-0' : 'right-[-100%]'} right-0 flex flex-col items-center justify-start w-3/4 h-[600px]  bg-white/50 backdrop-blur-sm rounded-xl p-10 duration-200 lg:static lg:flex-row lg:w-fit lg:bg-transparent lg:h-full lg:justify-between `}>
                 <ul className='flex flex-col lg:flex-row relative items-center gap-6 mb-4 lg:mb-0 lg:mr-4 '>
