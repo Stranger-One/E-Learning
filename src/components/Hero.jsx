@@ -1,5 +1,5 @@
 import React from 'react'
-import Header from './Header/Header'
+import Header from './header/Header'
 import Button from './Button'
 import { FaArrowRight } from "react-icons/fa";
 import heroImage from '../assets/hero.png'
